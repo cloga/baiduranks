@@ -6,7 +6,7 @@ import datetime
 from bs4 import BeautifulSoup
 import re
 currenttime=time.time()
-term='诺基亚'
+term='诺基亚'##要抓取的关键词
 today=str(datetime.date.today())
 url='http://www.baidu.com/s?wd='+term
 html=urllib2.urlopen(url).read()
